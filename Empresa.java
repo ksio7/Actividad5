@@ -82,5 +82,127 @@ public class Empresa {
 		return listaporpais;
 	}
 	
+	public boolean alta (boolean alta) {
+    if (alta != null) return alta = true;
+	
+	}
 
+public int buscarPorTrabajo (int idTrabajo) {
+    System.out.println("introduzca el idTrabajo");
+    Scanner sc1 = new Scanner(System.in);
+    idTrabajo = sc1.nextInt();
+
+
+    switch(idTrabajo) {
+
+    case 1:
+    if (idTrabajo == 1); 
+    System.out.println("Programador");
+        break;
+
+    case 2:
+        if (idTrabajo == 2); 
+        System.out.println("Directivo");
+            break;
+
+    case 3:
+        if (idTrabajo == 3); 
+        System.out.println("Limpiador");
+            break;
+
+    case 4:
+        if (idTrabajo == 4); 
+        System.out.println("Seguridad");
+        break;
+
+        default:
+
+}
+
+	public String modificarUno() {
+
+    System.out.println("elige el dato a modificar:");
+    System.out.println("1: Salario ");
+    System.out.println("2: Comisión");
+    System.out.println("3: Ciudad ");
+    System.out.println("4: País ");
+
+    Scanner sc2 = new Scanner(System.in);
+    int eleccion = sc2.nextInt();
+    switch(eleccion) {
+
+    case 1: 
+        if (eleccion == 1);
+        System.out.println("Introduzca el nuevo salario");
+        empleado1.setsalario = Sc2.nextInt();
+        break;
+
+    case 2:
+        if (eleccion == 2);
+        System.out.println("Introduzca la nueva comisión");
+        empleado1.setcomision = Sc2.nextInt();
+        break;
+
+    case 3:
+        if (eleccion == 3);
+        System.out.println("Introduzca la nueva ciudad");
+        Scanner strn1 = new Scanner(System.in);
+        empleado1.setciudad = strn1.next();
+        break;
+
+    case 4:
+        if (eleccion == 4);
+        System.out.println("Introduzca el nuevo país");
+        empleado1.setpais = strn1.next();
+        break;
+
+        default:
+
+    }
+
+}
+	public int eliminarUno() {
+
+    System.out.println("Introduzca el id del trabajador a eliminar");
+
+    Scanner sc3 = new Scanner(System.in);
+    idEmpleado = sc3.nextInt();
+    int empId = idEmpleado;
+
+    switch(empId) {
+
+    case 1:
+        if (empId == 101);
+        empleado1.setTrabajo = null;
+        break;
+
+    case 2:
+        if (empId == 102);
+        empleado2.setTrabajo = null;
+        break;
+
+    case 3:
+        if (empId == 103);
+        empleado3.setTrabajo = null;
+        break;
+
+    case 4:
+        if (empId == 104);
+        empleado4.setTrabajo = null;
+        break;
+
+    case 5:
+        if (empId == 105);
+        empleado5.setTrabajo = null;
+        break;
+
+        default:
+
+    }
+
+}	
+		
+		
+		
+	
 }
